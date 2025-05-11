@@ -18,7 +18,6 @@ The dataset contains historical sales transactions, including:
 - Quantity sold
 - Customer and region information
 
-(Note: Replace this with a link or description of your dataset if public.)
 
 ## 🧹 Data Cleaning
 
