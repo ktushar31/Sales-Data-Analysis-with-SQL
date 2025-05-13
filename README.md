@@ -35,6 +35,7 @@ Performed the following cleaning steps:
 - Top customers by revenue
 - Regional performance comparison
 
+  
 ## 📌 Sample SQL Queries
 
 ```sql
@@ -48,9 +49,9 @@ SELECT MONTH(order_date) AS month, SUM(sales) AS monthly_sales
 FROM sales_data
 GROUP BY month
 ORDER BY month;
+```
 
-
-## 📊 Visualizations
+ 📊 Visualizations
 
 The file [Sales_Analysis_Charts.xlsx](Sales_Analysis_Charts.xlsx) contains Excel PivotCharts built from SQL-cleaned sales data.  
 It includes:
@@ -58,4 +59,3 @@ It includes:
 - Sales by Product Line
 - Payment Method Distribution
 - Sales by City
-
